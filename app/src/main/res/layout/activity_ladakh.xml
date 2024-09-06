@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="bold"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4E7F6"
+    android:contentDescription="@string/ladakhbackgrnd"
+    tools:context=".Ladakh">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/link_to_book_hotels"
+        android:text="@string/link_to_book_hotels"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="110dp"
+        android:contentDescription="@string/link_to_book_flights"
+        android:text="@string/link_to_book_flights"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="421dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="250dp"
+        android:contentDescription="@string/about_ladakh"
+        android:fontFamily="@font/happy_monkey"
+        android:foregroundTint="#000000"
+        android:text="@string/tourism_in_ladakh_is_an_absolute_delight_for_nature_lovers_as_well_as_adventurers_adorned_with_the_lofty_barren_mountains_ladakh_is_home_to_some_of_the_highest_motorable_passes_like_khardung_la_5359_m_marsimik_la_5582_m_and_chang_la_5360_m_and_alpine_lakes_like_pangong_tso_4350_m_and_tso_moriri_4522_m"
+        android:textColor="#000000"
+        android:textScaleX="?attr/minTouchTargetSize"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ladakhbackgrnd"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41000003"
+        app:srcCompat="@drawable/img_10" />
+</androidx.constraintlayout.widget.ConstraintLayout>

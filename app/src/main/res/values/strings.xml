@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Travel Guide</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="or_you_can_sign_in_with">or you can sign in with</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">LOGIN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="discover_the_world_with_us">Discover the world with us!</string>
+    <string name="todo">TODO</string>
+    <string name="link_to_book_hotels">LINK TO BOOK HOTELS</string>
+    <string name="tourism_in_ladakh_is_an_absolute_delight_for_nature_lovers_as_well_as_adventurers_adorned_with_the_lofty_barren_mountains_ladakh_is_home_to_some_of_the_highest_motorable_passes_like_khardung_la_5359_m_marsimik_la_5582_m_and_chang_la_5360_m_and_alpine_lakes_like_pangong_tso_4350_m_and_tso_moriri_4522_m">Tourism in Ladakh is an absolute delight for nature lovers as well as adventurers. Adorned with the lofty barren mountains, Ladakh is home to some of the highest motorable passes like Khardung La (5359 m), Marsimik La (5582 m), and Chang La (5360 m), and alpine lakes like Pangong Tso (4350 m) and Tso Moriri (4522 m).</string>
+    <string name="link_to_book_flights">LINK TO BOOK FLIGHTS</string>
+    <string name="ladakhbackgrnd">ladakhbackgrnd</string>
+    <string name="about_ladakh">about ladakh</string>
+</resources>

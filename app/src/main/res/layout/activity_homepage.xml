@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_centerInParent="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/img_3"
+    tools:context=".Homepage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="start|top"
+        android:fontFamily="@font/biryani_bold"
+        android:layoutDirection="ltr"
+        android:text="@string/discover_the_world_with_us"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="641dp">
+
+
+        <ImageButton
+            android:id="@+id/goa"
+            android:layout_width="200dp"
+            android:layout_height="152dp"
+            android:layout_marginEnd="220dp"
+            android:layout_marginBottom="225dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="Goa"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.483"
+            app:srcCompat="@drawable/goa" />
+
+        <ImageButton
+            android:id="@+id/kashmir"
+            android:layout_width="200dp"
+            android:layout_height="152dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="171dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="408dp"
+            android:contentDescription="kashmir"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.736"
+            app:layout_constraintStart_toEndOf="@+id/goa"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kashmir" />
+
+        <ImageButton
+            android:id="@+id/jodhpur"
+            android:layout_width="200dp"
+            android:layout_height="152dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="160dp"
+            android:contentDescription="jodhpur"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ladakh"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/jodhpur" />
+
+        <ImageButton
+            android:id="@+id/ladakh"
+            android:layout_width="200dp"
+            android:layout_height="152dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="-40dp"
+            android:contentDescription="leh"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/jodhpur"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintVertical_bias="0.671"
+            app:srcCompat="@drawable/leh" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-60dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="125dp"
+            android:contentDescription="leh"
+            android:text="LEH LADAKH"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/ladakh" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="134dp"
+            android:contentDescription="jodhpur"
+            android:text="JODHPUR"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jodhpur"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="143dp"
+            android:contentDescription="goa"
+            android:fontFamily="@font/happy_monkey"
+            android:text="GOA"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/textView7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/goa" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="60dp"
+            android:text="KASHMIR"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/kashmir" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
